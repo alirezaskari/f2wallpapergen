@@ -20,7 +20,7 @@ def create_wallpaper(quote, author, index):
 
     # Add the wrapped quote text
     draw = ImageDraw.Draw(image)
-    font = ImageFont.truetype("fonts\RoxboroughCF-Regular.otf", size=50)  # You can change the font and size
+    font = ImageFont.truetype("yourfontshere.ttf", size=50)  # You can change the font and size
     text_color = (0, 0, 0)
     text1_x = 100
     text1_y = height // 3 
